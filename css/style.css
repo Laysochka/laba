@@ -1,0 +1,28 @@
+body{
+  background-color:#fff0f0;
+  font-family:'Comic Sans MS', 'Comic Sans', cursive;
+}
+hr {
+  background-color:inherit;
+  border-style:none;
+  border-top-style:dashed;
+  border-color:#835858;
+  border-width:4px;
+  width:50%;
+}
+input{
+  background-color:#ebd4d4;
+  border-style:double;
+  border-width: 5px;
+  border-color:#463333;
+}
+textarea{
+  background-color:#ebd4d4;
+  border-style:dashed;
+  border-width: 5px;
+  border-color:#463333;
+
+}
+h1{
+  color:#463333;
+}
