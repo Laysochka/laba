@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <style>
+body
+{
+  background : url(mrpl.jpg) no-repeat;
+  background-position: top center;
+  background-size: 1400px 630px;
+}
+.map
+{
+  font-family :'Bradley Hand', cursive;
+  height : 50px;
+  width : 15vw;
+  font-size : 30px;
+  border-radius : 10px;
+  border-style : none;
+  left:40vw;
+  background-color : #463333;
+  position : absolute;
+
+  color : black;
+  text-decoration : none;
+  text-align: center;
+}
+.mypage
+{
+  font-family :'Bradley Hand', cursive;
+  height : 50px;
+  width : 200px;
+  font-size : 30px;
+  border-radius : 10px;
+  border-style : none;
+  top: 5px;
+  right : 50px;
+  background-color : #463333;
+  position : absolute;
+  color : black;
+  text-decoration : none;
+  text-align: center;
+}
+.parallax
+{
+  font-family :'Bradley Hand', cursive;
+  height : 50px;
+  width : 200px;
+  font-size : 30px;
+  border-radius : 10px;
+  border-style : none;
+  top: 60px;
+  right : 50px;
+  background-color : #463333;
+  position : absolute;
+  color : black;
+  text-decoration : none;
+  text-align: center;
+}
+.cover{
+background: rgba(0, 0, 0, 0.5);
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+}
+.content{
+position: relative;
+z-index: 2;
+}
+
+    .navbar
+{
+  font-family :'Bradley Hand', cursive;
+  font-size : 25px;
+  height : 75px;
+  background-color:rgba(0,128,192.0.9);
+}
+.header
+{
+  font-family :'Bradley Hand', cursive;
+  font-size : 50px;
+   height : 400px;
+
+}
+.mainsection
+{
+
+  margin: 75px 100px 75px 100px;
+   height : 500px;
+}
+.image
+{
+  width : 40vw;
+   height :60vh;
+}
+
+#greybox
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: absolute;
+  left :0px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  width: 90vw;
+}
+.undimg1
+{
+  position: relative;
+  top : 400px;
+}
+.undimg2
+{
+  position: relative;
+  top : 400px;
+}
+
+
+@media (max-width: 800px) {
+  #greybox {
+    flex-direction: column;
+
+
+  }
+  .cards
+  {
+    position :relative;
+    top: calc(125vh - 100vw);
+  }
+  .image
+  {
+    width : 80vw;
+     height :60vh;
+     margin-bottom: 300px;
+  }
+
+  .orangebox
+  {
+    width: 80vw;
+  }
+  .yellowparagraph
+  {
+    margin-bottom:275px;
+  }
+  .undimg2
+  {
+    position: relative;
+    top : 600px;
+  }
+}
+
+.yellowparagraph
+{
+  font-family :'Bradley Hand', cursive;
+  font-size : 25px;
+  height : 200px;
+  margin-bottom:75px;
+
+}
+.orangebox
+{
+  font-family :'Bradley Hand', cursive;
+  font-size : 25px;
+  height: 425px;
+  width: 40vw;
+}
+
+
+</style>
+
+  </head>
+
+  <body>
+    <nav class="navbar">
+      Travel Portal
+    </nav>
+    <div class="cover"></div>
+<div class="content"></div>
+
+
+<header class = "header">
+  <br>
+<center>MARIUPOL</center>
+<a class = "map" href="https://www.google.com/maps/place/%D0%9C%D0%B0%D1%80%D0%B8%D1%83%D0%BF%D0%BE%D0%BB%D1%8C,+%D0%94%D0%BE%D0%BD%D0%B5%D1%86%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+87500/data=!4m2!3m1!1s0x40e6e6a7bee7582b:0xa5d118300a75b5ce?sa=X&ved=2ahUKEwiEzK-38P3sAhUtl4sKHWhZBVAQ8gEwAHoECAsQAQ">MAP</a>
+<a class = "mypage"href="lisa.html">My Page</a>
+<a class = "parallax"href="parallax.html">Parallax</a>
+</header>
+
+<section class="mainsection">
+
+  <p class="yellowparagraph">
+    <br>
+    <br>
+    <br>
+  <b>  ABOUT: </b><br>
+  Mariupol is a city in the Azov region of the Donetsk region of Ukraine, the largest city on the shores of the Azov Sea at the mouth of the Kalmius and Kalchik rivers. Center of the Mariupol agglomeration.</p>
+
+<div class="cards">
+<div id="greybox">
+<img  src="sea.jpg" class = "image">
+<img  src="fab.jpg" class = "image">
+</div>
+<div id="greybox">
+  <div class = "orangebox">
+
+    <p class = "undimg1">The Azov Sea is a semi-enclosed sea of ​​the Atlantic Ocean in eastern Europe</p>
+  </div>
+
+<br>
+  <div class = "orangebox">
+
+  <p class = "undimg2" >  Due to the stable operation of most large enterprises, the city is constantly faced with environmental problems.</p>
+  </div>
+
+</div>
+</div>
+</section>
+
+
+  </body>
+
+</html>
